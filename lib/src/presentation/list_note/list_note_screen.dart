@@ -104,7 +104,7 @@ class _ListNoteScreenState extends State<ListNoteScreen> with ResponsiveWidget {
                           onTap: () {
                             _viewModel.onPageDisplayNote();
                           },
-                          child: AddNoteScreen()));
+                          child: WidgetAddNote()));
                 },
               ),
             )),
