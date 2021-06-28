@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_app/src/configs/configs.dart';
 import 'package:get/get.dart';
-
-import '../presentation.dart';
 
 class WidgetNoteBooks extends StatelessWidget {
   final String name;

@@ -51,7 +51,8 @@ class _ListNoteScreenState extends State<ListNoteScreen> with ResponsiveWidget {
                 floating: true,
                 collapsedHeight: Get.height * 0.25,
                 automaticallyImplyLeading: false,
-                flexibleSpace: _noteScreen(),
+                flexibleSpace: Align(
+                    alignment: Alignment.bottomCenter, child: _noteScreen()),
               )
             ];
           },

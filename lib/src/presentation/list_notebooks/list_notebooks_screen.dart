@@ -46,6 +46,7 @@ class _ListNoteBooksState extends State<ListNoteBooks> with ResponsiveWidget {
 
   Widget _buildBody() {
     return Scaffold(
+        resizeToAvoidBottomInset: false,
         body: NestedScrollView(
           headerSliverBuilder: (context, isScrolled) {
             return [

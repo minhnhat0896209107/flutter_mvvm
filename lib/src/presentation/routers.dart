@@ -22,14 +22,15 @@ class Routers {
         return animRoute(NavigationScreen(), name: navigation);
       case browsescreen:
         return animRoute(BrowseScreen(),
-            name: browsescreen, beginOffset: _left);
+            name: browsescreen, beginOffset: _bottom);
       case listnote:
-        return animRoute(ListNoteScreen(), name: listnote, beginOffset: _right);
+        return animRoute(ListNoteScreen(),
+            name: listnote, beginOffset: _bottom);
       case listnotebook:
         return animRoute(ListNoteBooks(),
-            name: listnotebook, beginOffset: _right);
+            name: listnotebook, beginOffset: _bottom);
       case setting:
-        return animRoute(SettingScreen(), name: setting, beginOffset: _top);
+        return animRoute(SettingScreen(), name: setting, beginOffset: _bottom);
       case display:
         return animRoute(DisplayNote(), name: display, beginOffset: _bottom);
       case float_button:

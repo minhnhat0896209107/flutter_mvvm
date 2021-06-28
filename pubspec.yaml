@@ -15,8 +15,8 @@ dependencies:
   intl: ^0.17.0
   get: ^4.1.4
   dotted_border: ^2.0.0
-
-
+  sqflite: ^2.0.0+3
+  path_provider: ^2.0.2
   # Common
   # get: ^4.1.4
   get_storage: ^2.0.2
